@@ -3,7 +3,7 @@ import {Box,Flex,Heading,Text} from '@chakra-ui/react'
 
 export default function View({data}){
     if (data.length === 0){ 
-    return <Box flex={1} w={'full'} bg={'#18181b'} mr={'4'} mt={'10'} p={'5'} pb={'4'} border={'1px solid'} borderColor={'#303036'} borderRadius={'12'}>
+    return <Box flex={1} w={'full'} bg={'#18181b'}  mt={'10'} p={'5'} pb={'4'} border={'1px solid'} borderColor={'#303036'} borderRadius={'12'}>
         <Flex justifyContent={'space-between'} alignItems={'center'}>
             <Heading size={'lg'} color={'gray.600'}>
                 Meal History
