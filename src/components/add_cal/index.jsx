@@ -5,7 +5,7 @@ import { GlobalContext } from "../../context";
 
 export default function AddForm({onClose, isOpen}){
 
-    const {formData, setFormData, value, setValue, handleFormSubmit} = useContext(GlobalContext);
+    const {formData, setFormData, handleFormSubmit} = useContext(GlobalContext);
 
     function handleFormChange(event){
         setFormData({
