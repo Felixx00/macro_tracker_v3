@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Container, Flex, Box } from '@chakra-ui/react';
 import Main from './components/main';

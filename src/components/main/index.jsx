@@ -33,7 +33,7 @@ export default function Main(){
         setTotalFat(f);
         setTotalProte(p);
 
-    }, [allTrans])
+    }, [allTrans, setTotalCals, setTotalCarbs, setTotalFat, setTotalProte])
 
 
 
